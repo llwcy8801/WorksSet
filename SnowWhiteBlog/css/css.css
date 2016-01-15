@@ -1,0 +1,58 @@
+.col{width: 600px;margin: 20px auto}
+/*头部样式*/
+.container{width: 100%;}
+.row{width: 960px;margin: 0 auto;overflow: hidden;}
+.logo{margin:20px 0;}
+.logo a{color:#FFF;text-decoration: none;font-size: 50px;}
+.logo-bc{background-color: #000}
+.nav-bc{background-color: #c0c0c0}
+
+/*导航栏样式*/
+.nav{padding-right: 20px}
+.nav ul li{float: right;margin:5px 0;overflow: hidden;}
+.nav ul li a:link{color:#000000;text-decoration: none;margin-right: 20px;font-size: 16px}
+.nav ul li a:visited{color: #000}
+.nav ul li a:hover{color: #696969}
+.scrollnav{padding-right: 20px;width:960px; height:30px; line-height:30px;position:fixed; left:50%; margin-left:-500px; top:0;z-index:888; background:#c0c0c0; display:none;}
+.scrollnav ul li a{color:#000; text-decoration:none; display:block; float:right; height:30px; line-height:30px; margin-left: 20px; font-size:16px;}
+.scrollnav ul li a:hover{color: #696969}
+#scrollnav-logo{color:#fff;float:left;}
+#scrollnav-logo:hover{color:#fff;}
+
+/*博客列表样式*/
+.post{margin: 40px auto 0;padding: 10px;}
+.post-title{font-size: 25px}
+.post-title a:link{color:#000000;text-decoration: none;}
+.post-title a:visited{color: #000}
+.post-title a:hover{color: #696969}
+.post-content{margin: 20px auto 0;line-height: 150%}
+.post-jointime{font-size: 12px;border-bottom: 1px dashed;}
+.post-edit{text-align: right;font-size: 12px}
+.post-edit a:link{color:#000000;text-decoration: none;}
+.post-edit a:visited{color: #000}
+.post-edit a:hover{color: #696969}
+
+/*页脚样式*/
+.footer{height:35px;text-align: center;margin: 30px auto 0;padding-top:10px;}
+.footer-qie{text-decoration: none;color: #000}
+
+/*写博客样式*/
+.writepost-post{margin: 20px auto 0;}
+.writepost-title-input{width: 99%;}
+.textarea{width: 100%;height: 350px;resize: none;font-size: 50px}
+
+/*登录&登出样式*/
+.login{width: 150px;margin: 20px auto 0;}
+.login-name{margin: 20px auto 0;}
+.logout{width: 150px;margin: 20px auto 0;}
+.logout-part{margin: 20px auto 0;}
+
+/*博客页样式*/
+.replies{width: 600px;margin: 40px auto}
+.new-reply{margin-top: 40px}
+
+/*改博客样式*/
+.editpost-post{margin: 20px auto 0;}
+.editpost-title-input{width: 99%;}
+
+

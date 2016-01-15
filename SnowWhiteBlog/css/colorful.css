@@ -1,0 +1,12 @@
+.boxes{width: 840px;margin: 20px auto;}
+.box{width: 40px;height: 40px;background-color: #fff;float: left;margin: 1px;}
+.box2{-webkit-animation: change 2s}
+@-webkit-keyframes change {
+    14%{background-color: #FF0000;}
+    28%{background-color: #FF7F00;}
+    42%{background-color: #FFFF00;}
+    56%{background-color: #00FF00;}
+    70%{background-color: #00FFFF;}
+    84%{background-color: #0000FF;}
+    100%{background-color: #8B00FF;}
+}
